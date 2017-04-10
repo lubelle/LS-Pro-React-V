@@ -1,0 +1,26 @@
+.flex-media_container {
+	
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	
+	-webkit-flex-direction: row; 
+	flex-direction:         row;
+	
+	-webkit-flex-wrap: wrap; 
+	flex-wrap:         wrap; 
+	
+    -webkit-align-items: center;
+    align-items: center;
+	
+	-webkit-justify-content: center; 
+	justify-content: center;
+	
+	-webkit-align-content: center; 
+	align-content: center;
+   	
+}
+
+.flex-media_item {
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
